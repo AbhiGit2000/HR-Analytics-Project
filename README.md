@@ -1,7 +1,11 @@
 💼 HR Analytics Project
 
+
+
 🔍 Project Overview
 This project explores employee attrition, promotions, and compensation patterns using a combination of SQL, Excel, and Power BI. The goal is to identify key HR challenges and provide data-driven recommendations to improve retention, fairness, and workforce planning.
+
+
 
 
 📂 Dataset
@@ -16,12 +20,16 @@ Compensation Table – Salary, Salary hikes, Stock options, Overtime
 Attrition Table – Attrition status, Promotions, Manager tenure, Training
 
 
+
+
 ⚙️ Tools & Technologies
 SQL – Data cleaning, transformations, and analysis
 
 Power BI – Dashboard creation, slicers, drill-throughs, bookmarks, and interactive visuals
 
 Excel/CSV – Raw dataset handling
+
+
 
 
 📊 Key Insights
@@ -34,6 +42,8 @@ Promotion Gaps: Many Managers remain in the same role for 5+ years, indicating c
 Compensation Inequities: Salary hikes and stock options are unevenly distributed across roles, with several high performers underpaid
 
 
+
+
 💡 Recommendations
 Compensation Strategy: Reevaluate salary hikes and extend stock options to underpaid but high-performing employees
 
@@ -42,6 +52,8 @@ Promotion Planning: Implement structured promotion cycles to prevent stagnation 
 Overtime Policies: Review workload distribution in high-turnover roles to reduce burnout
 
 Targeted Retention: Focus retention efforts on at-risk groups (Sales & Lab Techs) to cut attrition costs
+
+
 
 
 📊 Power BI Dashboard
@@ -58,6 +70,8 @@ Overtime & promotion gap analysis
 Interactive slicers, drill-throughs, and bookmarks
 
 Check out the link if you're unable to open the dashboard : https://drive.google.com/file/d/1NDq7MIjNoqgmyZqmWl4Af1knAF92MCzx/view?usp=sharing
+
+
 
 
 📈 Project Highlights
