@@ -1,14 +1,14 @@
-💼 HR Analytics Project
+HR Analytics Project
 
 
 
-🔍 Project Overview
+Project Overview:
 This project explores employee attrition, promotions, and compensation patterns using a combination of SQL, Excel, and Power BI. The goal is to identify key HR challenges and provide data-driven recommendations to improve retention, fairness, and workforce planning.
 
 
 
 
-📂 Dataset
+Dataset:
 The HR dataset is split into multiple CSV tables:
 
 Employees Table – Age, Gender, Marital Status, Education
@@ -22,7 +22,7 @@ Attrition Table – Attrition status, Promotions, Manager tenure, Training
 
 
 
-⚙️ Tools & Technologies
+Tools & Technologies:
 SQL – Data cleaning, transformations, and analysis
 
 Power BI – Dashboard creation, slicers, drill-throughs, bookmarks, and interactive visuals
@@ -32,7 +32,7 @@ Excel/CSV – Raw dataset handling
 
 
 
-📊 Key Insights
+Key Insights
 Attrition Rate: Overall attrition rate is 16.12%
 
 Roles at Risk: Sales Representatives and Lab Technicians show the highest attrition, linked to low pay & overtime
@@ -43,8 +43,7 @@ Compensation Inequities: Salary hikes and stock options are unevenly distributed
 
 
 
-
-💡 Recommendations
+Recommendations:
 Compensation Strategy: Reevaluate salary hikes and extend stock options to underpaid but high-performing employees
 
 Promotion Planning: Implement structured promotion cycles to prevent stagnation and improve retention
@@ -56,7 +55,7 @@ Targeted Retention: Focus retention efforts on at-risk groups (Sales & Lab Techs
 
 
 
-📊 Power BI Dashboard
+Power BI Dashboard:
 The Power BI report (HR Analysis Visualization.pbix) includes:
 
 Attrition overview (rate, trend, demographics)
@@ -74,7 +73,7 @@ Check out the link if you're unable to open the dashboard : https://drive.google
 
 
 
-📈 Project Highlights
+Project Highlights:
 Uncovered attrition, promotion, and compensation insights using SQL
 
 Delivered interactive Power BI dashboard with smart layouting
