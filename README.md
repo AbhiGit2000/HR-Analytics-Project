@@ -1,81 +1,94 @@
-HR Analytics Project
+##Project Objective
+
+To analyze workforce data and uncover key insights related to employee attrition, compensation, job satisfaction, and demographics — helping HR leaders identify factors driving attrition and design data-backed retention strategies.
 
 
+##Data Model Overview
 
-Project Overview:
-This project explores employee attrition, promotions, and compensation patterns using a combination of SQL, Excel, and Power BI. The goal is to identify key HR challenges and provide data-driven recommendations to improve retention, fairness, and workforce planning.
+The project is built using four main tables:
 
+Employees — Employee demographics (Age, Gender, Marital Status, Education Field)
 
+Jobs — Job-level details (Role, Department, Job Satisfaction, Environment Satisfaction, Years at Company)
 
+Compensation — Salary, Stock Options, Overtime, Percent Hike
 
-Dataset:
-The HR dataset is split into multiple CSV tables:
+Attrition — Attrition flag, Years since Promotion, Training, and Manager Tenure
 
-Employees Table – Age, Gender, Marital Status, Education
+Each table is connected via a common Employee Number key ensuring consistent, filterable insights.
 
-Jobs Table – Job role, Department, Level, Satisfaction, Tenure
+##Dashboard Pages
 
-Compensation Table – Salary, Salary hikes, Stock options, Overtime
+#Page 1: Executive Summary
 
-Attrition Table – Attrition status, Promotions, Manager tenure, Training
+High-level overview for HR executives to understand the organization’s workforce composition and attrition trends.
 
+KPIs: Total Employees, Attrition Count, Attrition Rate %, Average Age, Average Monthly Income, Average Years at Company
 
+Visuals:
 
+Attrition Rate by Department
 
-Tools & Technologies:
-SQL – Data cleaning, transformations, and analysis
+Attrition by Job Role
 
-Power BI – Dashboard creation, slicers, drill-throughs, bookmarks, and interactive visuals
+Attrition by Gender & Marital Status
 
-Excel/CSV – Raw dataset handling
+Attrition by Age Band
 
+Average Monthly Income vs Job Level
 
-
-
-Key Insights
-Attrition Rate: Overall attrition rate is 16.12%
-
-Roles at Risk: Sales Representatives and Lab Technicians show the highest attrition, linked to low pay & overtime
-
-Promotion Gaps: Many Managers remain in the same role for 5+ years, indicating career stagnation
-
-Compensation Inequities: Salary hikes and stock options are unevenly distributed across roles, with several high performers underpaid
+Slicers: Department | Gender | Job Role
 
 
+#Page 2: Compensation & Performance Insights
 
-Recommendations:
-Compensation Strategy: Reevaluate salary hikes and extend stock options to underpaid but high-performing employees
+Focuses on identifying whether pay, promotions, or overtime affect attrition rates.
 
-Promotion Planning: Implement structured promotion cycles to prevent stagnation and improve retention
+Attrition Rate by Salary Range
 
-Overtime Policies: Review workload distribution in high-turnover roles to reduce burnout
+Attrition by Stock Option Level
 
-Targeted Retention: Focus retention efforts on at-risk groups (Sales & Lab Techs) to cut attrition costs
+Years Since Last Promotion vs Attrition
 
+Avg Monthly Income vs Job Satisfaction
 
+Overtime vs Attrition
 
+Includes contextual insight box:
 
-Power BI Dashboard:
-The Power BI report (HR Analysis Visualization.pbix) includes:
-
-Attrition overview (rate, trend, demographics)
-
-Job role & department attrition breakdown
-
-Salary & compensation distribution
-
-Overtime & promotion gap analysis
-
-Interactive slicers, drill-throughs, and bookmarks
-
-Check out the link if you're unable to open the dashboard : https://drive.google.com/file/d/1NDq7MIjNoqgmyZqmWl4Af1knAF92MCzx/view?usp=sharing
+“This page explores compensation and growth factors influencing attrition.”
 
 
+##Key Business Insights
+
+Total Employees: 1470, with 16.12% attrition rate (237 employees).
+
+Sales Department shows the highest attrition (20.63%), especially among Sales Representatives (39.76%).
+
+Single male employees (age 18–21) show a higher tendency to leave — possibly seeking promotions or salary growth.
+
+HR Department reports high attrition in divorced females (~75%).
+
+Junior positions (Sales Rep, Lab Tech) show more turnover than senior ones.
+
+Attrition is higher for employees with Overtime and Stock Option Levels 0 & 3.
+
+Employees earning below $2,000/month show greater attrition risk — suggesting need for salary revision or retention perks.
 
 
-Project Highlights:
-Uncovered attrition, promotion, and compensation insights using SQL
+##Tools & Technologies
 
-Delivered interactive Power BI dashboard with smart layouting
+Power BI (Data Modeling, DAX, Interactive Visuals)
 
-Demonstrated real-world HR problem-solving with data storytelling
+MS Excel / CSV (Data Cleaning & Transformation)
+
+DAX Measures for KPIs such as Attrition Rate %, Average Income, etc.
+
+
+##Learnings & Highlights
+
+Built an interactive, multi-page HR dashboard with professional color theming and synced filters.
+
+Created calculated measures to track HR KPIs and detect high-risk attrition segments.
+
+Demonstrated data storytelling through structured insights and HR domain relevance.
