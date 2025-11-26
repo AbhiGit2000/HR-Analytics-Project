@@ -1,6 +1,4 @@
 
-### HR Attrition Analytics Dashboard
-
 # Project Overview
 This project analyzes workforce data to uncover key drivers of employee attrition, compensation trends, job satisfaction levels, and employee demographics. The goal is to provide clear, actionable, data-driven insights that help HR teams improve employee retention and workforce planning strategies.
 
