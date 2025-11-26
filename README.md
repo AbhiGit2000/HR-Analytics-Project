@@ -1,29 +1,63 @@
-##Project Objective
 
-To analyze workforce data and uncover key insights related to employee attrition, compensation, job satisfaction, and demographics — helping HR leaders identify factors driving attrition and design data-backed retention strategies.
+📊 HR Attrition Analytics Dashboard
+
+🔍 Project Overview
+This project analyzes workforce data to uncover key drivers of employee attrition, compensation trends, job satisfaction levels, and employee demographics. The goal is to provide clear, actionable, data-driven insights that help HR teams improve employee retention and workforce planning strategies.
+
+🗂️ Data Model
+
+The analysis is built on four core tables linked using a common Employee Number key:
+
+Employees – Demographics (Age, Gender, Marital Status, Education Field)
+
+Jobs – Role, Department, Job Satisfaction, Environment Satisfaction, Years at Company
+
+Compensation – Monthly Income, Stock Options, Overtime Status, Percent Salary Hike
+
+Attrition – Attrition Flag, Years Since Promotion, Training History, Manager Tenure
+
+This structured model enables consistent, filterable, and interactive analysis.
 
 
-##Data Model Overview
+🧩 Business Questions Answered
 
-The project is built using four main tables:
+This project was designed to answer critical HR and workforce questions such as:
 
-Employees — Employee demographics (Age, Gender, Marital Status, Education Field)
+Which departments experience the highest employee attrition?
 
-Jobs — Job-level details (Role, Department, Job Satisfaction, Environment Satisfaction, Years at Company)
+Which job roles have the highest turnover?
 
-Compensation — Salary, Stock Options, Overtime, Percent Hike
+How do age, gender, and marital status affect employee retention?
 
-Attrition — Attrition flag, Years since Promotion, Training, and Manager Tenure
+Does salary level influence attrition?
 
-Each table is connected via a common Employee Number key ensuring consistent, filterable insights.
+What is the impact of overtime on turnover?
 
-##Dashboard Pages
+Do stock options help retain employees?
 
-#Page 1: Executive Summary
+How do promotions and career growth affect attrition?
 
-High-level overview for HR executives to understand the organization’s workforce composition and attrition trends.
+Which employee segments are at the highest risk of leaving?
 
-KPIs: Total Employees, Attrition Count, Attrition Rate %, Average Age, Average Monthly Income, Average Years at Company
+
+📈 Dashboard Structure
+🔹 Page 1: Executive HR Summary
+
+Designed for leadership-level insights into workforce health.
+
+KPIs:
+
+Total Employees
+
+Attrition Count
+
+Attrition Rate (%)
+
+Average Age
+
+Average Monthly Income
+
+Average Years at Company
 
 Visuals:
 
@@ -33,62 +67,69 @@ Attrition by Job Role
 
 Attrition by Gender & Marital Status
 
-Attrition by Age Band
+Attrition by Age Group
 
 Average Monthly Income vs Job Level
 
-Slicers: Department | Gender | Job Role
+Slicers:
+Department | Gender | Job Role
 
 
-#Page 2: Compensation & Performance Insights
+🔹 Page 2: Compensation & Performance Analysis
 
-Focuses on identifying whether pay, promotions, or overtime affect attrition rates.
+Focused on understanding the relationship between pay, workload, and career growth with employee turnover.
 
-Attrition Rate by Salary Range
+Visuals:
+
+Attrition Rate by Salary Band
 
 Attrition by Stock Option Level
 
 Years Since Last Promotion vs Attrition
 
-Avg Monthly Income vs Job Satisfaction
+Average Monthly Income vs Job Satisfaction
 
 Overtime vs Attrition
 
-Includes contextual insight box:
+Insight Context:
 
-“This page explores compensation and growth factors influencing attrition.”
-
-
-##Key Business Insights
-
-Total Employees: 1470, with 16.12% attrition rate (237 employees).
-
-Sales Department shows the highest attrition (20.63%), especially among Sales Representatives (39.76%).
-
-Single male employees (age 18–21) show a higher tendency to leave — possibly seeking promotions or salary growth.
-
-HR Department reports high attrition in divorced females (~75%).
-
-Junior positions (Sales Rep, Lab Tech) show more turnover than senior ones.
-
-Attrition is higher for employees with Overtime and Stock Option Levels 0 & 3.
-
-Employees earning below $2,000/month show greater attrition risk — suggesting need for salary revision or retention perks.
+This page explores how compensation, career progression, and workload impact employee retention.
 
 
-##Tools & Technologies
+📌 Key Business Insights
 
-Power BI (Data Modeling, DAX, Interactive Visuals)
+The organization has 1,470 employees with an overall attrition rate of 16.1% (237 exits).
 
-MS Excel / CSV (Data Cleaning & Transformation)
+The Sales department has the highest attrition (20.6%), especially among Sales Representatives (39.7%).
 
-DAX Measures for KPIs such as Attrition Rate %, Average Income, etc.
+Single male employees aged 18–21 show a higher tendency to leave, likely due to career growth expectations.
+
+The HR department shows high attrition among divorced female employees, indicating possible support or engagement gaps.
+
+Junior positions (Sales Representatives, Lab Technicians) face higher turnover than senior roles.
+
+Employees who work overtime and those with Stock Option Levels 0 and 3 have higher attrition risk.
+
+Employees earning below $2,000/month show significantly higher likelihood of leaving, suggesting a need for compensation review.
 
 
-##Learnings & Highlights
+🛠️ Tools & Technologies
 
-Built an interactive, multi-page HR dashboard with professional color theming and synced filters.
+Power BI – Data modeling, DAX, interactive dashboards
 
-Created calculated measures to track HR KPIs and detect high-risk attrition segments.
+MS Excel / CSV – Data cleaning and preparation
 
-Demonstrated data storytelling through structured insights and HR domain relevance.
+DAX – Calculations for Attrition %, Average Income, KPIs
+
+
+🚀 Skills Demonstrated
+
+Data modeling and relationship design
+
+Advanced DAX calculations
+
+Dashboard design and storytelling
+
+Business-focused analytical thinking
+
+Stakeholder-style reporting
