@@ -4,6 +4,7 @@
 🔍 Project Overview
 This project analyzes workforce data to uncover key drivers of employee attrition, compensation trends, job satisfaction levels, and employee demographics. The goal is to provide clear, actionable, data-driven insights that help HR teams improve employee retention and workforce planning strategies.
 
+
 🗂️ Data Model
 
 The analysis is built on four core tables linked using a common Employee Number key:
@@ -17,6 +18,7 @@ Compensation – Monthly Income, Stock Options, Overtime Status, Percent Salary 
 Attrition – Attrition Flag, Years Since Promotion, Training History, Manager Tenure
 
 This structured model enables consistent, filterable, and interactive analysis.
+
 
 
 🧩 Business Questions Answered
@@ -38,6 +40,7 @@ Do stock options help retain employees?
 How do promotions and career growth affect attrition?
 
 Which employee segments are at the highest risk of leaving?
+
 
 
 📈 Dashboard Structure
@@ -75,6 +78,7 @@ Slicers:
 Department | Gender | Job Role
 
 
+
 🔹 Page 2: Compensation & Performance Analysis
 
 Focused on understanding the relationship between pay, workload, and career growth with employee turnover.
@@ -96,6 +100,7 @@ Insight Context:
 This page explores how compensation, career progression, and workload impact employee retention.
 
 
+
 📌 Key Business Insights
 
 The organization has 1,470 employees with an overall attrition rate of 16.1% (237 exits).
@@ -113,6 +118,7 @@ Employees who work overtime and those with Stock Option Levels 0 and 3 have high
 Employees earning below $2,000/month show significantly higher likelihood of leaving, suggesting a need for compensation review.
 
 
+
 🛠️ Tools & Technologies
 
 Power BI – Data modeling, DAX, interactive dashboards
@@ -120,6 +126,7 @@ Power BI – Data modeling, DAX, interactive dashboards
 MS Excel / CSV – Data cleaning and preparation
 
 DAX – Calculations for Attrition %, Average Income, KPIs
+
 
 
 🚀 Skills Demonstrated
