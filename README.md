@@ -1,11 +1,11 @@
 
-📊 HR Attrition Analytics Dashboard
+### HR Attrition Analytics Dashboard
 
-🔍 Project Overview
+# Project Overview
 This project analyzes workforce data to uncover key drivers of employee attrition, compensation trends, job satisfaction levels, and employee demographics. The goal is to provide clear, actionable, data-driven insights that help HR teams improve employee retention and workforce planning strategies.
 
 
-🗂️ Data Model
+# Data Model
 
 The analysis is built on four core tables linked using a common Employee Number key:
 
@@ -21,7 +21,7 @@ This structured model enables consistent, filterable, and interactive analysis.
 
 
 
-🧩 Business Questions Answered
+# Business Questions Answered
 
 This project was designed to answer critical HR and workforce questions such as:
 
@@ -43,8 +43,9 @@ Which employee segments are at the highest risk of leaving?
 
 
 
-📈 Dashboard Structure
-🔹 Page 1: Executive HR Summary
+### Dashboard Structure
+
+## Page 1: Executive HR Summary
 
 Designed for leadership-level insights into workforce health.
 
@@ -62,7 +63,7 @@ Average Monthly Income
 
 Average Years at Company
 
-Visuals:
+# Visuals:
 
 Attrition Rate by Department
 
@@ -74,12 +75,12 @@ Attrition by Age Group
 
 Average Monthly Income vs Job Level
 
-Slicers:
+# Slicers:
 Department | Gender | Job Role
 
 
 
-🔹 Page 2: Compensation & Performance Analysis
+## Page 2: Compensation & Performance Analysis
 
 Focused on understanding the relationship between pay, workload, and career growth with employee turnover.
 
@@ -95,13 +96,13 @@ Average Monthly Income vs Job Satisfaction
 
 Overtime vs Attrition
 
-Insight Context:
+# Insight Context:
 
 This page explores how compensation, career progression, and workload impact employee retention.
 
 
 
-📌 Key Business Insights
+# Key Business Insights
 
 The organization has 1,470 employees with an overall attrition rate of 16.1% (237 exits).
 
@@ -119,7 +120,7 @@ Employees earning below $2,000/month show significantly higher likelihood of lea
 
 
 
-🛠️ Tools & Technologies
+# Tools & Technologies
 
 Power BI – Data modeling, DAX, interactive dashboards
 
@@ -129,7 +130,7 @@ DAX – Calculations for Attrition %, Average Income, KPIs
 
 
 
-🚀 Skills Demonstrated
+# Skills Demonstrated
 
 Data modeling and relationship design
 
